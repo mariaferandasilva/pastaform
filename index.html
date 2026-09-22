@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulário de HTML e CSS</title>
+
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="banner">
+            <div class="banner-conteudo">
+                <h1>FORMULÁRIO</h1>
+                <p>HTML e CSS</p>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <form id="formulario">
+
+            <table>
+
+                <caption>
+                    Formulário  perguntas e respostas de HTML e CSS
+                </caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            Identificação do usuário
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="nome">Nome:</label>
+                        </td>
+
+                        <td>
+                            <input
+                                type="text"
+                                id="nome"
+                                name="nome"
+                                placeholder="Digite seu nome"
+                                required
+                            >
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="data">Data da tarefa:</label>
+                        </td>
+
+                        <td>
+                            <input
+                                type="date"
+                                id="data"
+                                name="data"
+                                required
+                            >
+                        </td>
+                    </tr>
+                </thead>
+                <tbody class="pergunta">
+                    <tr>
+                        <th colspan="2">
+                            1. Qual tag HTML é utilizada para definir o título principal
+                            (o de maior hierarquia e importância) de uma página ou seção?
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q1" value="a" required>
+                                a)head
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q1" value="b">
+                                b)header
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q1" value="c">
+                                c)h1
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q1" value="d">
+                                d)title
+                            </label>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+                <tbody class="pergunta">
+
+                    <tr>
+                        <th colspan="2" >
+                            2. Qual atributo é obrigatório na tag
+                             <a> (âncora) para especificar o URL de destino do link?
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q2" value="a" required>
+                                a) href
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q2" value="b">
+                                b) src
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q2" value="c">
+                                c) link
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q2" value="d">
+                                d) to
+                            </label>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+                <tbody>
+
+                    <tr>
+                        <th colspan="2">
+                            3. Como você seleciona especificamente um elemento que possui
+                            o atributo id="perfil" usando a folha de estilos CSS?
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q3" value="a" required>
+                                a) .perfil
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q3" value="b">
+                                b) *perfil
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q3" value="c">
+                                c) id:perfil
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q3" value="d">
+                                d) #perfil
+                            </label>
+                        </td>
+                    </tr>
+
+                </tbody>
+                <tbody class="pergunta">
+
+                    <tr>
+                        <th colspan="2">
+                            4. Qual tag HTML usamos para criar um parágrafo de texto comum?
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q4" value="a" required>
+                                a) text
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q4" value="b">
+                                b) p
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q4" value="c">
+                                c) br
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q4" value="d">
+                                d)b
+                            </label>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+                <tbody class="pergunta">
+
+                    <tr>
+                        <th colspan="2">
+                            5. No CSS, qual propriedade usamos para mudar a cor do texto?
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q5" value="a" required>
+                                a)color
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q5" value="b">
+                                b)text-color
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q5" value="c">
+                                c) font-color
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q5" value="d">
+                                d) background-color
+                            </label>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+                <tbody class="pergunta">
+
+                    <tr>
+                        <th colspan="2">
+                            6.Qual tag HTML usamos para inserir uma imagem na tela?
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q6" value="a" required>
+                                a) image
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q6" value="b">
+                                b)picture
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q6" value="c">
+                                c)img
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q6" value="d">
+                                d) scr
+                            </label>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+                <tbody class="pergunta">
+
+                    <tr>
+                        <th colspan="2">
+                            7.  Para que serve a tag 'button' no HTML?
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q7" value="a" required>
+                                a) Para criar um botão clicável na página.
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q7" value="b">
+                                b)Para criar um link para outro site.
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q7" value="c">
+                                c)  Para deixar o texto em negrito.
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q7" value="d">
+                                d)  Para abrir uma nova aba no navegador.
+                            </label>
+                        </td>
+                    </tr>
+
+                </tbody>
+                <tbody class="pergunta">
+
+                    <tr>
+                        <th colspan="2">
+                            8.Qual propriedade do CSS
+                             serve para alterar o tamanho da fonte (tamanho da letra)?
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q8" value="a" required>
+                                a)text-size
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q8" value="b">
+                                b) font-weight
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q8" value="c">
+                                c)font-size
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q8" value="d">
+                                d) size
+                            </label>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+                <tbody class="pergunta">
+
+                    <tr>
+                        <th colspan="2">
+                            9. Qual pseudo-classe em CSS é utilizada para aplicar
+                            um estilo a um elemento apenas no exato momento em que
+                            o cursor do usuário passa por cima dele?
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q9" value="a" required>
+                                a) :hover
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q9" value="b">
+                                b) :focus
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q9" value="c">
+                                c) :active
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q9" value="d">
+                                d) :visited
+                            </label>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <tbody class="pergunta">
+                    <tr>
+                        <th colspan="2">
+                            10. Para que serve o CSS no desenvolvimento de uma página web?
+                        </th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q10" value="a" required>
+                                a)Para criar a estrutura do texto e dos botões.
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q10" value="b">
+                                b)Para conectar o site com um banco de dados.
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q10" value="c">
+                                c) Para dar estilo, cores, fontes e beleza visual à página. 
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input type="radio" name="q10" value="d">
+                                d) Para criar a lógica de funcionamento de um carrinho de compras.
+                            </label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="submit" id="botao">
+                Enviar
+            </button>
+        </form>
+    </main>
+    <footer>
+        <p> Todos direitos do usuario reservados. Questionário de HTML e CSS &copy; 2026</p>
+    </footer>
+    <script src="formulario.js"></script>
+</body>
+</html>
