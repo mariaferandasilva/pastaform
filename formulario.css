@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9d5f5;
+    color: #2b1538;
+}
+
+header {
+    width: 100%;
+}
+
+.banner {
+    background: linear-gradient(135deg, #6a1b9a, #9c4dcc, #c084fc);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 35px auto;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(91, 33, 125, 0.20);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 27px;
+    font-weight: bold;
+    color: #5b187a;
+    padding: 15px;
+}
+
+thead th {
+    background-color: #5b187a;
+    color: white;
+}
+
+tbody th {
+    background-color: #c9a7e8;
+    color: #351044;
+    font-size: 17px;
+}
+
+th,
+td {
+    border: 1px solid #b889d6;
+    padding: 14px;
+}
+
+td {
+    background-color: #faf5ff;
+}
+
+td label {
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+td label:hover {
+    background-color: #ead7f7;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #7b2cbf;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+
+    border: 1px solid #b889d6;
+    border-radius: 5px;
+
+    font-size: 15px;
+
+    background-color: #ffffff;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+    outline: none;
+    border-color: #8e44ad;
+
+    box-shadow: 0 0 5px rgba(142, 68, 173, 0.35);
+}
+
+button {
+    display: block;
+
+    margin: 30px auto 5px;
+
+    padding: 13px 45px;
+
+    background-color: #7b2cbf;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5a189a;
+}
+
+footer {
+    background-color: #5b187a;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 40px;
+}
+
+@media (max-width: 700px) {
+
+    main {
+        width: 96%;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner p {
+        font-size: 17px;
+    }
+
+    caption {
+        font-size: 22px;
+    }
+}
